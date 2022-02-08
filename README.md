@@ -1,6 +1,6 @@
 # Virtual Data Room Platform to Cloud Storage Integration
 
-This web app has been created as a proof of concept for of a common integration use-case in the LegalTech world.
+This web app has been created as a proof of concept for a common integration use-case in the LegalTech world.
 Virtual Data Rooms commonly facilitate M&A Transactions and VDR Platforms can allow Law Firms to run many transactions
 at once, all managed from a single SaaS Platform. 
 
@@ -11,8 +11,8 @@ for searching and viewing metadata associated with these sites. Individual sites
 REST API can be leveraged to download the file & folder structures of these sites onto the server this app is running on, as well as an
 object storage repository like AWS S3.
 
-VDR Platforms generally charge by the amount of data stored, so an integration which can provide efficient transfer out of the system, 
-is a valuable tool for system administrators. 
+**VDR Platforms generally charge by the amount of data stored, so an integration which can provide efficient transfer out of the system, 
+is a valuable tool for system administrators.** 
 
 The individual data rooms can also be 'soft' (i.e recycle bin) deleted or even 'hard' (irretrievably) deleted, 
 
@@ -22,19 +22,19 @@ The individual data rooms can also be 'soft' (i.e recycle bin) deleted or even '
 - [Django AllAuth](https://django-allauth.readthedocs.io/en/latest/overview.html)
   - Allows us to use the remote VDR system to provide authentication. 
 - [Pydantic](https://pydantic-docs.helpmanual.io/)
-  - Gives a much cleaner interface for the data transfer object. Also provides validation on fields. 
+  - Gives a much clean interface for the data transfer object. Also provides validation. 
 - [Pytest](https://docs.pytest.org/)
-  - Easy monkey-patching and mocking is perfect for testing an app reliant on network calls to a 3rd party service
+  - Easy monkey-patching and mocking is perfect for testing an app reliant on network calls to a 3rd party service.
 - [Celery](https://docs.celeryproject.org/en/stable/getting-started/introduction.html)
-  - We expect some 'jobs' to be long running. This allows us to define them as Tasks and push to a background worker.
+  - We expect some 'jobs' to be long-running. This allows us to define them as 'tasks' and push to a background worker.
 - [Django-Solo](https://github.com/lazybird/django-solo)
-  - Settings can be defined by users in an admin interface. This allows us to do so as a Singleton object. 
+  - Settings can be defined by users in an admin interface. This allows us to do so as a 'singleton' object. 
   - [Memcached](https://memcached.org/)
     - Caching the settings, for as fast as possible access. 
 - [Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
   - For interacting with the S3 functionality. 
 - [Bottle](https://bottlepy.org/docs/dev/)
-  - API Proxy between Django App and remote system
+  - API Proxy between the Django App and remote system.
   - [PyPy](https://www.pypy.org/)
   - [Gunicorn](https://docs.gunicorn.org/en/stable/index.html)
     - PyPy and Gunicorn Async workers to improve throughput for the API Proxy. 
@@ -51,8 +51,8 @@ The individual data rooms can also be 'soft' (i.e recycle bin) deleted or even '
 
 ## Warning about the endpoints
 This repository is for demo purposes only! I would advise against trying to run it, as the requests to the remote system urls
-are 'sort of' fake. I've deliberately obfuscated them, as I dont want to reveal the endpoints of the company I work for's API. 
-When running in my local, I have an api proxy written in Bottle forwarding the requests to the 'real' service (not checked into
+are '_sort of_' fake. I've deliberately obfuscated them, as I dont want to reveal the endpoints of the proprietary API. 
+When running in my local, I have an API proxy written in Bottle forwarding the requests to the 'real' service (not checked into
 version control). Post about it [HERE](https://petersimpson.dev/blog/building-an-api-proxy-with-bottle/).
 Having said that, if the purpose of each endpoint is clear to you and could easily 'map' onto a system you are familiar with,
 feel free to write your own proxy service! 
@@ -62,6 +62,6 @@ feel free to write your own proxy service!
  - Research more efficient algorithms for file-deletion (reverse level order traversal?). 
  - More Tests. More Integration in tests.
  - Get Memcached to play more nicely with Django-Solo. 
- - Bug where the 'Site Copy' returns success message too early. 
+ - Bug where the 'Site Copy' task returns success message too early. 
  - Improve the interface (add more filtering and ordering options). 
 
