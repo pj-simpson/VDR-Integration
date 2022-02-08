@@ -113,7 +113,7 @@ media/
 # **/migrations/**
 # !**/migrations
 # !**/migrations/__init__.py
-./idea
+./idea/**
 
 #Ignore my api proxy to keep the api endpoints a secret!
 proxy.py
