@@ -1,0 +1,15 @@
+
+
+
+ <table class="table table-striped">
+    <tr>
+        <th>Active Files</th>
+        <th>Deleted Files</th>
+        <th>Total</th>
+    </tr>
+    <tr>
+        <td >{{context_data.active_document_size |filesizeformat}}</td>
+        <td>{{context_data.deleted_document_size |filesizeformat}}</td>
+        <td>{{context_data.total_size |filesizeformat}}</td>
+    </tr>
+</table>

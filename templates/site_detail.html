@@ -1,0 +1,121 @@
+{% extends '_base.html' %}
+
+{% block body %}
+
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1>{{ context_data.name }}</h1>
+        {% if context_data.status == 'Active' %}
+            <h2><span class="badge rounded-pill bg-danger">{{context_data.status}}</span></h2>
+        {% elif context_data.status == 'Readonly' %}
+            <h2><span class="badge rounded-pill bg-secondary">{{context_data.status}}</span></h2>
+        {% elif context_data.status == 'Archived' %}
+            <h2><span class="badge rounded-pill bg-success">{{context_data.status}}</span></h2>
+        {% else  %}
+            <h2><span class="badge rounded-pill bg-warning text-dark">{{context_data.status}}</span></h2>
+        {% endif %}
+</div>
+
+
+    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border site-detail-container shadow-sm">
+      <div class="">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-6">
+                    {% include "site_detail_snippets/doc_size_table.html" %}
+                </div>
+                <div class="col-md-6">
+                    {% include "site_detail_snippets/dates_table.html" %}
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    {% include "site_detail_snippets/security_table.html" %}
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    {% include "site_detail_snippets/modules_panel.html" %}
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border site-detail-container shadow-sm">
+
+
+    <div class="row justify-content-between site-details-middle">
+                <div class="col-6 col-md-4">
+                    {% include "site_detail_snippets/category_list.html"  %}
+                </div>
+                <div class="col-6 col-md-4">
+                    {% include "site_detail_snippets/notes_and_description.html"  %}
+                </div>
+                <div class="col-6 col-md-4">
+                    <div class="card" style="width: 18rem;">
+                      <div class="card-body">
+                        <h5 class="card-title">Site Owner</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">{{context_data.owner_name}}</h6>
+                        <a href="mailto:{{context_data.owner_email}}">{{context_data.owner_email}}</a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border site-detail-container shadow-sm">
+        <div class="row site-details-bottom">
+
+            <div class="site-replication col">
+
+                <div>
+                    <button type="button" data-rootfolderid="{{ context_data.site_root_folder_id }}" class="btn btn-primary task-button dispatch-migration">Site Copy</button>
+                </div>
+
+                <div style="display: none;" class="spinner-border spinner-site-dispatch-migration" role="status">
+                </div>
+
+            </div>
+
+            <div class="site-soft-delete-container col">
+
+                <div>
+                    <button type="button" data-rootfolderid="{{ context_data.site_root_folder_id }}" class="btn btn-warning task-button soft-delete">Soft Delete</button>
+                </div>
+
+                <div style="display: none;" class="spinner-border spinner-site-soft-delete" role="status">
+                </div>
+
+            </div>
+
+            <div class="site-hard-delete-container col">
+
+                <div>
+                    <button type="button" data-rootfolderid="{{ context_data.site_root_folder_id }}" class="btn btn-danger task-button hard-delete">Hard Delete</button>
+                </div>
+
+                <div style="display: none;" class="spinner-border spinner-site-hard-delete" role="status">
+                </div>
+
+            </div>
+
+            <div class="task-run-result">
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+{% endblock body %}

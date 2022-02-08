@@ -1,0 +1,18 @@
+{% extends '_base.html' %}
+
+
+{% load socialaccount %}
+{% block body %}
+
+{% if user.is_authenticated %}
+
+<p>Welcome {{ user.email }}, you just logged in via your VDR platform!</p>
+
+
+
+{% else %}
+
+
+
+{% endif %}
+{% endblock %}

@@ -1,0 +1,62 @@
+<table class="table table-bordered">
+  <tr>
+      <td>Bidder Site</td>
+      <td>
+          {% if context_data.bidder_site %}
+              <i class="bi bi-check"></i>
+          {% else %}
+              <i class="bi bi-x-circle"></i>
+          {% endif %}
+      </td>
+  </tr>
+  <tr>
+      <td>Password Protection</td>
+      <td>
+          {% if context_data.password_protected %}
+              <i class="bi bi-check"></i>
+          {% else %}
+              <i class="bi bi-x-circle"></i>
+          {% endif %}
+      </td>
+  </tr>
+  <tr>
+      <td>Two Factor Authentication</td>
+      <td>
+          {% if context_data.two_factor_authentication %}
+              <i class="bi bi-check"></i>
+          {% else %}
+              <i class="bi bi-x-circle"></i>
+          {% endif %}
+      </td>
+  </tr>
+  <tr>
+      <td>Terms and Conditions</td>
+      <td>
+          {% if context_data.terms_and_conditions %}
+              <i class="bi bi-check"></i>
+          {% else %}
+              <i class="bi bi-x-circle"></i>
+          {% endif %}
+      </td>
+  </tr>
+  <tr>
+      <td>IP Restriction</td>
+      <td>
+          {% if context_data.ip_restriction %}
+              <i class="bi bi-check"></i>
+          {% else %}
+              <i class="bi bi-x-circle"></i>
+          {% endif %}
+      </td>
+  </tr>
+  <tr>
+      <td>Digital Rights Management</td>
+      <td>
+          {% if context_data.digital_rights_management %}
+              <i class="bi bi-check"></i>
+          {% else %}
+              <i class="bi bi-x-circle"></i>
+          {% endif %}
+      </td>
+  </tr>
+</table>

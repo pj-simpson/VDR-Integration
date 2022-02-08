@@ -1,0 +1,64 @@
+version: '3.7'
+
+services:
+
+  redis:
+    image: redis:5-alpine
+
+  django:
+    build:
+      context: .
+      dockerfile: docker/local/Dockerfile
+    command: /start
+    volumes:
+      - .:/home/myuser/code/
+    ports:
+      - "8000:8000"
+    depends_on:
+      - redis
+    env_file:
+      - .env
+
+  api_proxy:
+    build:
+      context: .
+      dockerfile: docker/local/proxy/Dockerfile
+    command: pypy3 proxy.py
+    ports:
+      - "9000:9000"
+    tty: true
+    stdin_open: true
+
+  memcached:
+    image: memcached
+    ports:
+      - "11211:11211"
+    entrypoint:
+      - memcached
+      - -m 64
+
+  celery:
+    build:
+      context: .
+      dockerfile: ./docker/local/Dockerfile
+    command: /start-celeryworker
+    volumes:
+      - .:/home/myuser/code/
+    depends_on:
+      - redis
+    env_file:
+      - .env
+
+  flower:
+    build:
+      context: .
+      dockerfile: ./docker/local/Dockerfile
+    command:  /start-flower
+    ports:
+      - 5555:5555
+    volumes:
+      - .:/home/myuser/code/
+    depends_on:
+      - redis
+    env_file:
+      - .env

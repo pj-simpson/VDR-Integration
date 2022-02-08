@@ -1,0 +1,440 @@
+{
+  "sitecount": 295,
+  "site": [
+    {
+      "id": 1505,
+      "sitename": "My site",
+      "role": "CONTENT_ADMIN, MEMBER_ADMIN, QA_ADMIN, REPORTING_ADMIN, SITE_ADMIN, SYSTEM_ADMIN",
+      "sitedescription": "",
+      "sitefolderID": "7933",
+      "module": {
+        "home": {
+          "enable": "0"
+        },
+        "activity": {
+          "enable": "0",
+          "microblog": "0"
+        },
+        "document": {
+          "enable": "1"
+        },
+        "wiki": {
+          "enable": "0"
+        },
+        "blog": {
+          "enable": "0"
+        },
+        "task": {
+          "timelineview": "0",
+          "enable": "1"
+        },
+        "event": {
+          "enable": "0"
+        },
+        "isheet": {
+          "enable": "0"
+        },
+        "qa": {
+          "enable": "0"
+        },
+        "people": {
+          "enable": "0"
+        }
+      },
+      "adminnote": "",
+      "categories": {
+        "category": [
+          {
+            "id": "1",
+            "name": "None",
+            "httplink": null
+          }
+        ]
+      },
+      "startdate": "",
+      "enddate": "",
+      "createddate": "10 Jun 2019",
+      "status": "Active",
+      "size": "48.84 MB",
+      "rawsitesize": {
+        "activedocumentsize": 51207511,
+        "deleteddocumentsize": 31921373,
+        "totalsize": 83128884
+      },
+      "siteowner": {
+        "firstname": "Sys Sys",
+        "lastname": "Admin App",
+        "email": "peter.simpson@example.com",
+        "userid": 1873
+      },
+      "isSyncable": 1,
+      "file": {
+        "permissionlevel": "SITE_ONLY",
+        "approvaldocumentworkflow": null,
+        "allowbulkdownload": null,
+        "emailnotification": null,
+        "showsitemap": null,
+        "inbox": null,
+        "emailmetadata": null
+      },
+      "sitenametranslations": {
+        "translation": [
+          {
+            "languagecode": "en_GB",
+            "value": "My site"
+          }
+        ]
+      },
+      "enabledocumentredaction": true,
+      "mentiongroups": 0
+    },
+    {
+      "id": 1846,
+      "sitename": "Testing Created From A Template",
+      "role": "CONTENT_ADMIN, MEMBER_ADMIN, QA_ADMIN, REPORTING_ADMIN, SITE_ADMIN, SYSTEM_ADMIN, CREATE_SITE_ROLE",
+      "sitedescription": "",
+      "sitefolderID": "14606",
+      "module": {
+        "home": {
+          "enable": "1"
+        },
+        "activity": {
+          "enable": "0",
+          "microblog": "0"
+        },
+        "document": {
+          "enable": "1"
+        },
+        "wiki": {
+          "enable": "0"
+        },
+        "blog": {
+          "enable": "0"
+        },
+        "task": {
+          "timelineview": "0",
+          "enable": "0"
+        },
+        "event": {
+          "enable": "0"
+        },
+        "isheet": {
+          "enable": "1"
+        },
+        "qa": {
+          "enable": "0"
+        },
+        "people": {
+          "enable": "1"
+        }
+      },
+      "adminnote": "",
+      "categories": {
+        "category": [
+          {
+            "id": "1",
+            "name": "None",
+            "httplink": null
+          }
+        ]
+      },
+      "startdate": "27 Apr 2021",
+      "enddate": "",
+      "createddate": "27 Apr 2021",
+      "status": "Active",
+      "size": "34.45 KB",
+      "rawsitesize": {
+        "activedocumentsize": 35274,
+        "deleteddocumentsize": 0,
+        "totalsize": 35274
+      },
+      "siteowner": {
+        "firstname": "Sys Sys",
+        "lastname": "Admin App",
+        "email": "peter.simpson@example.com",
+        "userid": 1873
+      },
+      "isSyncable": 1,
+      "file": {
+        "permissionlevel": "SITE_ONLY",
+        "approvaldocumentworkflow": null,
+        "allowbulkdownload": null,
+        "emailnotification": null,
+        "showsitemap": null,
+        "inbox": null,
+        "emailmetadata": null
+      },
+      "sitenametranslations": {
+        "translation": [
+          {
+            "languagecode": "en_GB",
+            "value": "Testing Created From A Template"
+          }
+        ]
+      },
+      "enabledocumentredaction": true,
+      "mentiongroups": 0
+    },
+    {
+      "id": 1857,
+      "sitename": "Peter New Test 2021 Lets Go!",
+      "role": "CONTENT_ADMIN, MEMBER_ADMIN, QA_ADMIN, REPORTING_ADMIN, SITE_ADMIN, SYSTEM_ADMIN, CREATE_SITE_ROLE",
+      "sitedescription": "",
+      "sitefolderID": "14716",
+      "module": {
+        "home": {
+          "enable": "1"
+        },
+        "activity": {
+          "enable": "1",
+          "microblog": "0"
+        },
+        "document": {
+          "enable": "1"
+        },
+        "wiki": {
+          "enable": "1"
+        },
+        "blog": {
+          "enable": "1"
+        },
+        "task": {
+          "timelineview": "0",
+          "enable": "1"
+        },
+        "event": {
+          "enable": "1"
+        },
+        "isheet": {
+          "enable": "1"
+        },
+        "qa": {
+          "enable": "1"
+        },
+        "people": {
+          "enable": "1"
+        }
+      },
+      "adminnote": "",
+      "categories": {
+        "category": [
+          {
+            "id": "1",
+            "name": "None",
+            "httplink": null
+          }
+        ]
+      },
+      "startdate": "14 Jun 2021",
+      "enddate": "",
+      "createddate": "14 Jun 2021",
+      "status": "Active",
+      "size": "100.18 MB",
+      "rawsitesize": {
+        "activedocumentsize": 105043584,
+        "deleteddocumentsize": 838956758,
+        "totalsize": 944000342
+      },
+      "siteowner": {
+        "firstname": "Sys Sys",
+        "lastname": "Admin App",
+        "email": "peter.simpson@example.com",
+        "userid": 1873
+      },
+      "isSyncable": 0,
+      "file": {
+        "permissionlevel": "SITE_ONLY",
+        "approvaldocumentworkflow": null,
+        "allowbulkdownload": null,
+        "emailnotification": null,
+        "showsitemap": null,
+        "inbox": null,
+        "emailmetadata": null
+      },
+      "sitenametranslations": {
+        "translation": [
+          {
+            "languagecode": "en_GB",
+            "value": "Peter New Test 2021 Lets Go!"
+          }
+        ]
+      },
+      "enabledocumentredaction": true,
+      "mentiongroups": 0
+    },
+    {
+      "id": 1521,
+      "sitename": "Petey's Q&A Test",
+      "role": "CONTENT_ADMIN, MEMBER_ADMIN, QA_ADMIN, REPORTING_ADMIN, SITE_ADMIN, SYSTEM_ADMIN, CREATE_SITE_ROLE",
+      "sitedescription": "",
+      "sitefolderID": "8026",
+      "module": {
+        "home": {
+          "enable": "1"
+        },
+        "activity": {
+          "enable": "0",
+          "microblog": "0"
+        },
+        "document": {
+          "enable": "1"
+        },
+        "wiki": {
+          "enable": "0"
+        },
+        "blog": {
+          "enable": "1"
+        },
+        "task": {
+          "timelineview": "0",
+          "enable": "1"
+        },
+        "event": {
+          "enable": "0"
+        },
+        "isheet": {
+          "enable": "1"
+        },
+        "qa": {
+          "enable": "1"
+        },
+        "people": {
+          "enable": "1"
+        }
+      },
+      "adminnote": "",
+      "categories": {
+        "category": [
+          {
+            "id": "1",
+            "name": "None",
+            "httplink": null
+          }
+        ]
+      },
+      "startdate": "25 Jun 2019",
+      "enddate": "",
+      "createddate": "25 Jun 2019",
+      "status": "Active",
+      "size": "392.95 KB",
+      "rawsitesize": {
+        "activedocumentsize": 402384,
+        "deleteddocumentsize": 0,
+        "totalsize": 402384
+      },
+      "siteowner": {
+        "firstname": "Sys Sys",
+        "lastname": "Admin App",
+        "email": "peter.simpson@example.com",
+        "userid": 1873
+      },
+      "isSyncable": 1,
+      "file": {
+        "permissionlevel": "SITE_ONLY",
+        "approvaldocumentworkflow": null,
+        "allowbulkdownload": null,
+        "emailnotification": null,
+        "showsitemap": null,
+        "inbox": null,
+        "emailmetadata": null
+      },
+      "sitenametranslations": {
+        "translation": [
+          {
+            "languagecode": "en_GB",
+            "value": "Petey's Q&A Test"
+          }
+        ]
+      },
+      "enabledocumentredaction": true,
+      "mentiongroups": 0
+    },
+    {
+      "id": 1625,
+      "sitename": "Peter Latest Site",
+      "role": "CONTENT_ADMIN, MEMBER_ADMIN, QA_ADMIN, REPORTING_ADMIN, SITE_ADMIN, SYSTEM_ADMIN, CREATE_SITE_ROLE",
+      "sitedescription": "ppkdldrlos",
+      "sitefolderID": "9932",
+      "module": {
+        "home": {
+          "enable": "1"
+        },
+        "activity": {
+          "enable": "1",
+          "microblog": "0"
+        },
+        "document": {
+          "enable": "1"
+        },
+        "wiki": {
+          "enable": "1"
+        },
+        "blog": {
+          "enable": "1"
+        },
+        "task": {
+          "timelineview": "0",
+          "enable": "1"
+        },
+        "event": {
+          "enable": "1"
+        },
+        "isheet": {
+          "enable": "1"
+        },
+        "qa": {
+          "enable": "1"
+        },
+        "people": {
+          "enable": "1"
+        }
+      },
+      "adminnote": "",
+      "categories": {
+        "category": [
+          {
+            "id": "1",
+            "name": "None",
+            "httplink": null
+          }
+        ]
+      },
+      "startdate": "15 Nov 2019",
+      "enddate": "",
+      "createddate": "15 Nov 2019",
+      "status": "Active",
+      "size": "231.91 MB",
+      "rawsitesize": {
+        "activedocumentsize": 243176973,
+        "deleteddocumentsize": 0,
+        "totalsize": 243176973
+      },
+      "siteowner": {
+        "firstname": "Sys Sys",
+        "lastname": "Admin App",
+        "email": "peter.simpson@example.com",
+        "userid": 1873
+      },
+      "isSyncable": 0,
+      "file": {
+        "permissionlevel": "SITE_FOLDERS_AND_FILES",
+        "approvaldocumentworkflow": null,
+        "allowbulkdownload": null,
+        "emailnotification": null,
+        "showsitemap": null,
+        "inbox": null,
+        "emailmetadata": null
+      },
+      "sitenametranslations": {
+        "translation": [
+          {
+            "languagecode": "en_GB",
+            "value": "Peter Latest Site"
+          }
+        ]
+      },
+      "enabledocumentredaction": true,
+      "mentiongroups": 0
+    }
+  ]
+}

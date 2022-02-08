@@ -1,0 +1,17 @@
+<div class="card" style="width: 18rem;">
+  <div class="card-header">
+    Extra Info:
+  </div>
+  <ul class="list-group list-group-flush">
+    {% if context_data.description != '' %}
+                <li class="list-group-item">{{ i.context_data.description }}</li>
+            {% else %}
+                <li class="list-group-item">No description provided for site</li>
+            {% endif %}
+            {% if context_data.administrator_notes != '' %}
+                <li class="list-group-item">{{ i.context_data.administrator_notes }}</li>
+            {% else %}
+                <li class="list-group-item">No administrator notes provided for site</li>
+            {% endif %}
+  </ul>
+</div>

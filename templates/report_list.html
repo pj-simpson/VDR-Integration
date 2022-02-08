@@ -1,0 +1,88 @@
+{% extends '_base.html' %}
+
+{% block body %}
+
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1 class="h2">Reports</h1>
+    </div>
+
+
+<div>
+
+
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Site</th>
+            <th scope="col">Date</th>
+        </tr>
+        </thead>
+        <tbody>
+
+        {% for report in report_list %}
+
+            <tr>
+                <td>{{ report.id }}</td>
+                <td><a href="{{ report.get_absolute_url }}">
+                    {{ report.root_folder_name }}
+                </a></td>
+                <td>{{ report.task_start }} </td>
+            </tr>
+
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <!-- Pagination Begin -->
+    <div class="container" id="pagination-container">
+        <ul class="pagination justify-content-center">
+            {% if report_list.has_previous %}
+                <li class="page-item">
+                    <a class="page-link" href="?page={{ report_list.previous_page_number }}">Previous</a>
+                </li>
+            {% else %}
+                <li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                </li>
+            {% endif %}
+
+            {% if news_items.number|add:'-9' > 1 %}
+                <li class="page-item"><a class="page-link" href="?page={{ report_list.number|add:'-10' }}">&hellip;</a></li>
+            {% endif %}
+
+            {% for i in report_list.paginator.page_range %}
+                {% if report_list.number == i %}
+                    <li class="page-item active" aria-current="page">
+              <span class="page-link">
+                {{ i }}
+              </span>
+                    </li>
+                {% elif i > report_list.number|add:'-5' and i < report_list.number|add:'10' %}
+                    <li class="page-item"><a class="page-link" href="?page={{ i }}">{{ i }}</a></li>
+                {% endif %}
+            {% endfor %}
+
+            {% if report_list.paginator.num_pages > report_list.number|add:'9' %}
+                <li class="page-item"><a class="page-link" href="?page={{ report_list.number|add:'10' }}">&hellip;</a></li>
+            {% endif %}
+
+            {% if report_list.has_next %}
+                <li class="page-item">
+                    <a class="page-link" href="?page={{ report_list.next_page_number }}">Next</a>
+                </li>
+            {% else %}
+                <li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Next</a>
+                </li>
+            {% endif %}
+        </ul>
+    </div>
+    <!-- Pagination End -->
+
+
+
+
+</div>
+
+{% endblock body %}

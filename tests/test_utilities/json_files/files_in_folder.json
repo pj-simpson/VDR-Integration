@@ -1,0 +1,180 @@
+{
+   "filetotal":5,
+   "file":[
+      {
+         "name":"sysadmin",
+         "id":52174,
+         "folderID":"11348",
+         "siteid":1728,
+         "versionid":1,
+         "createddate":"30 Dec 2020 21:39",
+         "modifieddate":"30 Dec 2020 21:39",
+         "type":"zip",
+         "size":45240432,
+         "icon":"https://blah.example.com/test/images/fileicon/large_default.svg",
+         "likescount":0,
+         "location":"Peters Test Site",
+         "createdby":{
+            "firstname":"Sys Sys",
+            "lastname":"Admin App",
+            "email":"peter.simpson@blah.com",
+            "userid":1873
+         },
+         "modifiedby":{
+            "firstname":"Sys Sys",
+            "lastname":"Admin App",
+            "email":"peter.simpson@blah.com",
+            "userid":1873
+         },
+         "permission":{
+            "view":1,
+            "edit":1,
+            "delete":1,
+            "addEditAllFiles":null,
+            "viewAllFiles":null,
+            "admin":null
+         },
+         "redactionstatus":false
+      },
+      {
+         "name":"28102020_Projects",
+         "id":52003,
+         "folderID":"11348",
+         "siteid":1728,
+         "versionid":1,
+         "createddate":"28 Oct 2020 10:37",
+         "modifieddate":"28 Oct 2020 10:37",
+         "type":"zip",
+         "size":171957486,
+         "icon":"https://blah.example.com/test/images/fileicon/large_default.svg",
+         "likescount":0,
+         "location":"Peters Test Site",
+         "createdby":{
+            "firstname":"Sys Sys",
+            "lastname":"Admin App",
+            "email":"peter.simpson@blah.com",
+            "userid":1873
+         },
+         "modifiedby":{
+            "firstname":"Sys Sys",
+            "lastname":"Admin App",
+            "email":"peter.simpson@blah.com",
+            "userid":1873
+         },
+         "permission":{
+            "view":1,
+            "edit":1,
+            "delete":1,
+            "addEditAllFiles":null,
+            "viewAllFiles":null,
+            "admin":null
+         },
+         "redactionstatus":false
+      },
+      {
+         "name":"Latest_Bundle",
+         "id":50882,
+         "folderID":"11348",
+         "siteid":1728,
+         "versionid":1,
+         "createddate":"13 Sep 2020 17:19",
+         "modifieddate":"13 Sep 2020 17:19",
+         "type":"zip",
+         "size":91176960,
+         "icon":"https://blah.example.com/test/images/fileicon/large_default.svg",
+         "likescount":0,
+         "location":"Peters Test Site",
+         "createdby":{
+            "firstname":"Sys Sys",
+            "lastname":"Admin App",
+            "email":"peter.simpson@example.com",
+            "userid":1873
+         },
+         "modifiedby":{
+            "firstname":"Sys Sys",
+            "lastname":"Admin App",
+            "email":"peter.simpson@example.com",
+            "userid":1873
+         },
+         "permission":{
+            "view":1,
+            "edit":1,
+            "delete":1,
+            "addEditAllFiles":null,
+            "viewAllFiles":null,
+            "admin":null
+         },
+         "redactionstatus":false
+      },
+      {
+         "name":"JS",
+         "id":50629,
+         "folderID":"11348",
+         "siteid":1728,
+         "versionid":1,
+         "createddate":"14 Jul 2020 20:14",
+         "modifieddate":"14 Jul 2020 20:14",
+         "type":"zip",
+         "size":265960713,
+         "icon":"https://blah.example.com/test/images/fileicon/large_default.svg",
+         "likescount":0,
+         "location":"Peters Test Site",
+         "createdby":{
+            "firstname":"Sys Sys",
+            "lastname":"Admin App",
+            "email":"peter.simpson@example.com",
+            "userid":1873
+         },
+         "modifiedby":{
+            "firstname":"Sys Sys",
+            "lastname":"Admin App",
+            "email":"peter.simpson@example.com",
+            "userid":1873
+         },
+         "permission":{
+            "view":1,
+            "edit":1,
+            "delete":1,
+            "addEditAllFiles":null,
+            "viewAllFiles":null,
+            "admin":null
+         },
+         "redactionstatus":false
+      },
+      {
+         "name":"Django",
+         "id":50628,
+         "folderID":"11348",
+         "siteid":1728,
+         "versionid":1,
+         "createddate":"14 Jul 2020 19:11",
+         "modifieddate":"14 Jul 2020 19:11",
+         "type":"zip",
+         "size":128399360,
+         "icon":"https://blah.example.com/test/images/fileicon/large_default.svg",
+         "likescount":0,
+         "location":"Peters Test Site",
+         "createdby":{
+            "firstname":"Sys Sys",
+            "lastname":"Admin App",
+            "email":"peter.simpson@example.com",
+            "userid":1873
+         },
+         "modifiedby":{
+            "firstname":"Sys Sys",
+            "lastname":"Admin App",
+            "email":"peter.simpson@example.com",
+            "userid":1873
+         },
+         "permission":{
+            "view":1,
+            "edit":1,
+            "delete":1,
+            "addEditAllFiles":null,
+            "viewAllFiles":null,
+            "admin":null
+         },
+         "redactionstatus":false
+      }
+   ]
+}

@@ -1,0 +1,12 @@
+<div class="card" style="width: 18rem;">
+  <div class="card-header">
+    Categories:
+  </div>
+  <ul class="list-group list-group-flush">
+    {% for i in context_data.categories %}
+        <li class="list-group-item">{{ i.category_name }}</li>
+    {%  endfor %}
+  </ul>
+</div>
+
+

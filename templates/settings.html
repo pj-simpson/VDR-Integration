@@ -1,0 +1,17 @@
+{% extends '_base.html' %}
+
+
+
+{% block body %}
+
+    <div class="settings-container">
+
+        <form method="post">
+             {{ form.as_p }}
+             <button type="submit" class="btn btn-primary">Update</button>
+           {% csrf_token %}
+        </form>
+
+    </div>
+
+{% endblock %}

@@ -1,0 +1,121 @@
+{
+  "id": 1507,
+  "sitename": "Peter's First Test Site",
+  "role": "CONTENT_ADMIN, MEMBER_ADMIN, QA_ADMIN, REPORTING_ADMIN, SITE_ADMIN, SYSTEM_ADMIN, CREATE_SITE_ROLE",
+  "sitedescription": "ppkdldrlos",
+  "sitefolderID": "7944",
+  "module": {
+    "home": {
+      "enable": "1"
+    },
+    "activity": {
+      "enable": "1",
+      "microblog": "1"
+    },
+    "document": {
+      "enable": "1"
+    },
+    "wiki": {
+      "enable": "1"
+    },
+    "blog": {
+      "enable": "1"
+    },
+    "task": {
+      "timelineview": "0",
+      "enable": "1"
+    },
+    "event": {
+      "enable": "1"
+    },
+    "isheet": {
+      "enable": "1"
+    },
+    "qa": {
+      "enable": "1"
+    },
+    "people": {
+      "enable": "1"
+    }
+  },
+  "adminnote": "Read the knowledge base and try out anything that seems worthwhile trying.",
+  "categories": {
+    "category": [
+      {
+        "id": "1",
+        "name": "None",
+        "httplink": null
+      }
+    ]
+  },
+  "startdate": "12 Jun 2019",
+  "createddate": "12 Jun 2019",
+  "archiveddate": "23 Feb 2021",
+  "status": "Archived",
+  "statusid": 3,
+  "size": "7.62MB",
+  "rawsitesize": {
+    "activedocumentsize": 7985171,
+    "deleteddocumentsize": 613969,
+    "totalsize": 8599140
+  },
+  "billingnextinvoicedate": "12 Jul 2021",
+  "billinglastinvoicedate": "12 Jul 2020",
+  "filepagecount": "733",
+  "maxpagecount": "749",
+  "siteowner": {
+    "firstname": "Sys Sys",
+    "lastname": "Admin App",
+    "email": "peter.simpson@example.com",
+    "userid": 1873
+  },
+  "file": {
+    "permissionlevel": "SITE_FOLDERS_AND_FILES",
+    "approvaldocumentworkflow": "0",
+    "allowbulkdownload": "0",
+    "emailnotification": "1",
+    "showsitemap": "1",
+    "inbox": {
+      "enable": "1",
+      "accountname": "Petey"
+    },
+    "emailmetadata": null
+  },
+  "contactus": {
+    "type": "email",
+    "values": [
+      {
+        "value": "peter.simpson@example.com"
+      }
+    ]
+  },
+  "enforceusergroups": "1",
+  "biddersite": {
+    "enable": "0",
+    "advancedqapermission": "0"
+  },
+  "landingpage": "files (root folder)",
+  "sitenametranslations": {
+    "translation": [
+      {
+        "languagecode": "en_GB",
+        "value": "Peter's First Test Site"
+      }
+    ]
+  },
+  "siteRestrictionType": {
+    "passwordprotected": 0,
+    "twoFactorAuthentication": 0,
+    "termsandconditions": 0,
+    "iprestrictedsite": 0,
+    "drm": 0,
+    "checkout": 0,
+    "documentworkflow": 0,
+    "visiableondrive": 1
+  },
+  "enabledocumentredaction": true,
+  "itemid": 51172,
+  "sitemetadatasheetid": 1607,
+  "mysite": false,
+  "mentiongroups": 0
+}

@@ -1,0 +1,22 @@
+{% extends '_base.html' %}
+
+{% block body %}
+
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h2>Report: {{ report.root_folder_name }}  </h2>{{ report.task_start }}
+    </div>
+
+
+    <table class="table">
+        <tbody>
+            {% for line in lines %}
+                <tr>
+                    <td>{{ line.timestamp | date:"M d, Y"}} {{ line.timestamp |time:"H:i:s:u" }}</td>
+                    <td>{{ line.line }}</td>
+                </tr>
+            {% endfor %}
+
+        </tbody>
+    </table>
+
+{% endblock body %}

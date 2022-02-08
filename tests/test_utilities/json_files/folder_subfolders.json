@@ -1,0 +1,66 @@
+{
+  "folder": [
+    {
+      "id": 11353,
+      "link": null,
+      "name": "Folder 1",
+      "permission": "UPDATE",
+      "child": 1,
+      "description": null,
+      "siteid": null,
+      "folderid": null,
+      "parentFolderID": 11348,
+      "accessInherited": 1,
+      "batchID": null,
+      "createddate": "15 Jul 2020 09:15",
+      "modifieddate": "05 Feb 2021 12:21",
+      "location": "Peters Test Site",
+      "dms": null,
+      "createdby": {
+        "firstname": "Sys Sys",
+        "lastname": "Admin App",
+        "email": "peter.simpson@example.com",
+        "userid": 1873
+      },
+      "modifiedby": {
+        "firstname": "Sys Sys",
+        "lastname": "Admin App",
+        "email": "peter.simpson@example.com",
+        "userid": 1873
+      },
+      "dmsfolderid": null,
+      "emailmetadata": null
+    },
+    {
+      "id": 11355,
+      "link": null,
+      "name": "Folder 2",
+      "permission": "UPDATE",
+      "child": 3,
+      "description": null,
+      "siteid": null,
+      "folderid": null,
+      "parentFolderID": 11348,
+      "accessInherited": 0,
+      "batchID": null,
+      "createddate": "15 Jul 2020 09:15",
+      "modifieddate": "01 Oct 2020 11:05",
+      "location": "Peters Test Site",
+      "dms": null,
+      "createdby": {
+        "firstname": "Sys Sys",
+        "lastname": "Admin App",
+        "email": "peter.simpson@example.com",
+        "userid": 1873
+      },
+      "modifiedby": {
+        "firstname": "Sys Sys",
+        "lastname": "Admin App",
+        "email": "peter.simpson@example.com",
+        "userid": 1873
+      },
+      "dmsfolderid": null,
+      "emailmetadata": null
+    }
+  ]
+}

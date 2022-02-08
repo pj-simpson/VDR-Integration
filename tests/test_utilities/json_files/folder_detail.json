@@ -1,0 +1,44 @@
+{
+   "id":11348,
+   "link":null,
+   "name":"Peters Test Site",
+   "permission":{
+      "view":1,
+      "edit":0,
+      "delete":0,
+      "addEditAllFiles":1,
+      "viewAllFiles":1,
+      "admin":1
+   },
+   "child":null,
+   "filecount":null,
+   "description":null,
+   "siteid":1728,
+   "folderid":null,
+   "parentFolderID":0,
+   "accessInherited":0,
+   "batchID":null,
+   "createddate":"14 Jul 2020 18:28",
+   "modifieddate":"16 Sep 2020 11:08",
+   "location":"Peters Test Site",
+   "dms":null,
+   "createdby":{
+      "firstname":"Sys Sys",
+      "lastname":"Admin App",
+      "email":"peter.simpson@example.com",
+      "userid":1873
+   },
+   "modifiedby":{
+      "firstname":"Sys Sys",
+      "lastname":"Admin App",
+      "email":"peter.simpson@example.com",
+      "userid":1873
+   },
+   "dmsfolderid":null,
+   "contentstatus":1,
+   "auto-numbering":null,
+   "foldersize":null,
+   "sharedstatus":null,
+   "favouritestatus":null,
+   "foldertype":null
+}
